@@ -1,4 +1,4 @@
-// script.js
+// script.jsfdfdfs
 var button = document.getElementById('button');
 var input = document.getElementById('input');
 var list = document.getElementById('list');
