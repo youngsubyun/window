@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>css</title>
+    <style media="screen">
+     /* p[class~="color"] { font-style: italic;}
+      p[class^="color"] { font-style: italic;}
+      p[class$="color"] { font-style: italic;}*/
+      p[class*="color"] { font-style: italic;}
+
+    </style>
+  </head>
+  <body>
+        <p class="foo">Hello</p>
+        <p class="bar">CSS</p>
+        <p class="baz" id="title">HTML</p>
+
+        <p class="color hot">red</p>
+        <p class="cool color">blue</p>
+        <p class="colorful nature">rainbow</p>
+  </body>
+</html>
